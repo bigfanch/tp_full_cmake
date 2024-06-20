@@ -1,0 +1,11 @@
+PROJECT_NAME           = "TPFull"
+OUTPUT_DIRECTORY       = @CMAKE_SOURCE_DIR@/docs
+INPUT                  = @CMAKE_SOURCE_DIR@/inc @CMAKE_SOURCE_DIR@/src @CMAKE_SOURCE_DIR@/main.cpp @CMAKE_SOURCE_DIR@/docs
+GENERATE_HTML          = YES
+USE_MDFILE_AS_MAINPAGE = @CMAKE_SOURCE_DIR@/docs/mainpage.md
+RECURSIVE              = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_LOGFILE           =
+CREATE_SUBDIRS         = YES 
