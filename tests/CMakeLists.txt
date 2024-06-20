@@ -13,3 +13,7 @@ add_test(NAME PalindromeTest COMMAND test_palindrome)
 add_executable(test_prime test_prime.cpp)
 target_link_libraries(test_prime gadgets)
 add_test(NAME PrimeTest COMMAND test_prime)
+
+add_executable(test_example_class test_example_class.cpp)
+target_link_libraries(test_example_class gadgets)
+add_test(NAME ExampleClassTest COMMAND test_example_class)
